@@ -24,7 +24,19 @@ public class HighScoreWins {
         // Determine the winner
         String teamA = parts[0].split(":")[0];
         String teamB = parts[0].split(":")[1];
-        String winner = (teamAScore > teamBScore) ? teamA : teamB;
+
+
+        // handle a tie
+        String winner;
+
+        if (teamAScore > teamBScore) {
+            winner = teamA;
+        } else if (teamAScore < teamBScore) {
+            winner = teamB;
+        } else {
+            winner = "It's a tie!";
+        }
+
 
         // Display the winner
         System.out.println("Winner: " + winner);
