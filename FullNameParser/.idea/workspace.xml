@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5deac32a-b9b7-4b75-a32c-59f344cd28bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/FullNameParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FullNameGenerator/src/main/java/com/pluralsight/FullNameApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FullNameGenerator/src/main/java/com/pluralsight/FullNameApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HighScoreWins/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
