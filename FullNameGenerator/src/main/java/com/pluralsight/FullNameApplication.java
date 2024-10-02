@@ -24,15 +24,15 @@ public class FullNameApplication {
         String suffix = scanner.nextLine().trim();
 
         // Joining the string and creating the full name
-        //below is the breakdown in case there are missing inputs etc (add appropriate spacing for later concatenation
+        //below is the breakdown in case there are missing inputs (add appropriate spacing for later concatenation)
 
-        middleName = (middleName.isBlank()) ? " " : " " + middleName + " "; //If no middle name, get rid of space
+        middleName = (middleName.isBlank()) ? " " : " " + middleName + " "; //If no middle name, get rid of space.
         suffix = (suffix.isBlank()) ? "" : ", " + suffix;               // if there is a suffix, add comma before.
 
         //concatenate the full string
         String fullName = firstName + middleName + lastName + suffix;
 
-    //Output = full name
+        //Output = full name
         System.out.println("Hey, " + fullName); // output: Whole name
 
 
