@@ -39,4 +39,5 @@ public class FullNameParser {
         System.out.println("Middle name: " + (middleName.isEmpty() ? "(none)" : middleName));
         System.out.println("Last name: " + lastName);
     }
+
 }

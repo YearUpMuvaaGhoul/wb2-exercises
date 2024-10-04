@@ -7,12 +7,13 @@ public class HighScoreWins {
         Scanner scanner = new Scanner(System.in);
 
         // Prompt the user for a game score
+        System.out.println("Lets see who won this game! ");
         System.out.println("Please enter a game score (format: ex:Home:Visitor|21:9): ");
 
         System.out.println("___________________________________________________________");
         String userInput = scanner.nextLine();
 
-        // Split the input on the pipe (|) to get team names and scores
+        // Split the input on the Bar (|) to get team names and scores
         String[] parts = userInput.split("\\|");
         String teamScores = parts[1]; // e.g., "28:14"
 
@@ -26,7 +27,7 @@ public class HighScoreWins {
         String teamB = parts[0].split(":")[1];
 
 
-        // handle a tie
+        // create if statement in case of tie, this is the breakdown to handle that
         String winner;
 
         if (teamAScore > teamBScore) {
@@ -45,3 +46,4 @@ public class HighScoreWins {
         scanner.close();
     }
 }
+
